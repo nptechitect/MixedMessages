@@ -6,6 +6,9 @@ const app = express();
 const path = require('path');
 const router = express.Router();
 
+// Middleware to serve static files from the 'public' directory
+app.use(express.static(path.join(__dirname, 'public')));
+
 router.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
