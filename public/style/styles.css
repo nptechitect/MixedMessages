@@ -40,34 +40,79 @@ header {
 
 /* Main Content Styles */
 main {
-    width: 75%;
+    /* width: 75%;
     margin: 2rem auto;
-    padding: 1rem;
-    background-color: var(--caribbean-current);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem; */
+    /* background-color: var(--caribbean-current); */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     text-align: center;
 }
 
 section {
     font-size: 1.5rem;
+}
+
+#description {
+    color: var(--burnt-umber);
+}
+
+#message-container {
+    width: 75%;
+    min-height: 10rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: var(--caribbean-current);
     color: var(--champagne-pink);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#message-container p{
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+#message-container button {
+    margin-bottom: 1rem;
 }
 
 /* this rule is for the main button on a form/page */
 .actionButton {
     background-color: var(--burnt-umber);
     color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
     padding: 0.5rem 1rem;
     border-radius: .5rem;
+    width: 50%;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.actionButton:hover {
+    background-color: var(--persian-red);
 }
 
 /* this rule is for a secondary button, like a cancel or back button */
 .secondaryButton {
     background-color: var(--dark-slate-gray);
     color: var(--champagne-pink);
+    font-size: 1.2rem;
+    font-weight: bold;
     padding: 0.5rem 1rem;
     border-radius: .5rem;
+    width: 50%;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.secondaryButton:hover {
+    background-color: var(--caribbean-current);
 }
 
 /* footer Styles */
