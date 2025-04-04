@@ -40,12 +40,6 @@ header {
 
 /* Main Content Styles */
 main {
-    /* width: 75%;
-    margin: 2rem auto;
-    padding: 1rem; */
-    /* background-color: var(--caribbean-current); */
-    /* border-radius: 8px; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     text-align: center;
 }
 
@@ -70,6 +64,24 @@ section {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+    #message-container {
+        width: 90%;
+        padding: 0.5rem;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #message-container {
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 0;
+        margin-bottom: 0;
+        box-shadow: none;
+    }
 }
 
 #message-container p{
