@@ -1,0 +1,82 @@
+/* Reset Box Model */
+/* This rule sets the box-sizing property for all elements to border-box, which includes padding and border in the element's total width and height. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variables */
+/* This rule defines CSS variables for colors and font sizes, allowing for easy customization and theming. */
+:root {
+    /* CSS HEX */
+    --dark-slate-gray: #283d3bff;
+    --caribbean-current: #197278ff;
+    --champagne-pink: #edddd4ff;
+    --persian-red: #c44536ff;
+    --burnt-umber: #772e25ff;
+}
+
+/* Global Styles */
+/* This rule sets the font family for the entire document to a sans-serif font, with a fallback to system-ui. */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-slate-gray);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Header Styles */
+header {
+    background-color: var(--dark-slate-gray);
+    color: var(--champagne-pink);
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main Content Styles */
+main {
+    width: 75%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: var(--caribbean-current);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section {
+    font-size: 1.5rem;
+    color: var(--champagne-pink);
+}
+
+/* this rule is for the main button on a form/page */
+.actionButton {
+    background-color: var(--burnt-umber);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+}
+
+/* this rule is for a secondary button, like a cancel or back button */
+.secondaryButton {
+    background-color: var(--dark-slate-gray);
+    color: var(--champagne-pink);
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+}
+
+/* footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--dark-slate-gray);
+    color: var(--champagne-pink);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
