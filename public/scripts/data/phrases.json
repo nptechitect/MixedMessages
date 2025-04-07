@@ -1,0 +1,162 @@
+[
+    {
+        "category": "Work & Ambition",
+        "phrases": [
+            {
+                "text": "Shoot for the moon. Even if you miss, {filler}",
+                "fillers" : [
+                    "you’ll land among the unpaid interns.",
+                    "you’ll end up stuck in middle management.",
+                    "you’ll still rack up impressive student debt.",
+                    "at least you’ll look busy on LinkedIn."
+                ]
+            },
+            {
+                "text": "Follow your passion—but remember, {filler}",
+                "fillers" : [
+                    "passion doesn’t offer dental.",
+                    "passion doesn’t pay rent.",
+                    "your passion might ghost you too.",
+                    "HR doesn’t consider passion a valid career path."
+                ]
+            },
+            {
+                "text": "Hard work pays off later. {filler}",
+                "fillers" : [
+                    "Procrastination pays off now.",
+                    "if burnout doesn’t collect first.",
+                    "but naps pay off immediately.",
+                    "assuming someone notices you did it."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Self-Improvement & Growth",
+        "phrases": [
+            {
+                "text": "Be yourself. {filler}",
+                "fillers" : [
+                    "Unless you can be someone richer, then do that.",
+                    "or at least someone with air conditioning.",
+                    "with a verified checkmark.",
+                    "who owns a functioning espresso machine."
+                ]
+            },
+            {
+                "text": "Growth begins at the edge of your comfort zone—and {filler}",
+                "fillers" : [
+                    "right after your last mental breakdown.",
+                    "right after a mild existential crisis.",
+                    "continues during your emotional hostage situation.",
+                    "just past the anxiety buffet."
+                ]
+            },
+            {
+                "text": "Don’t compare yourself to others. {filler}",
+                "fillers" : [
+                    "They might actually be trying.",
+                    "unless you’re winning, then gloat.",
+                    "because they might have better lighting.",
+                    "unless you’re into self-loathing."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Love & Relationships",
+        "phrases": [
+            {
+                "text": "You complete me. Like {filler}",
+                "fillers" : [
+                    "a software update at 2 a.m.",
+                    "a suspiciously fast tax refund.",
+                    "autocorrect in an argument.",
+                    "the Wi-Fi coming back after an outage."
+                ]
+            },
+            {
+                "text": "Relationships take work. Especially the part where {filler}",
+                "fillers" : [
+                    "you pretend to care about their favorite podcast.",
+                    "you pretend you don’t hate how they chew.",
+                    "you negotiate where to eat like it’s a UN summit.",
+                    "you act surprised by their terrible taste in movies."
+                ]
+            },
+            {
+                "text": "Love conquers all. Except {filler}",
+                "fillers" : [
+                    "communication, trust issues, and shared Netflix accounts.",
+                    "group chats with their exes.",
+                    "who gets the dog in the breakup.",
+                    "Spotify playlist disagreements."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Motivation & Hustle Culture",
+        "phrases": [
+            {
+                "text": "Rise and grind. Because {filler}",
+                "fillers" : [
+                    "capitalism isn’t going to exploit itself.",
+                    "sleep is for the weak and well-adjusted.",
+                    "capitalism runs on your exhaustion.",
+                    "someone has to make your boss rich."
+                ]
+            },
+            {
+                "text": "Hustle in silence. Let {filler}",
+                "fillers" : [
+                    "burnout make the noise.",
+                    "your unpaid overtime speak volumes.",
+                    "your caffine intake screem instead.",
+                    "your passive-aggressive status updates do the talking."
+                ]
+            },
+            {
+                "text": "Success is 1% inspiration, 99% {filler}",
+                "fillers" : [
+                    "pretending you're not dead inside.",
+                    "faking it on Zoom calls.",
+                    "Googling how to feel motivated.",
+                    "staring at the spreadsheets while dissociating."
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Existential & Life Philosophy",
+        "phrases": [
+            {
+                "text": "Everything happens for a reason. That reason is usually {filler}",
+                "fillers" : [
+                    "poor planning.",
+                    "you clicked agree without reading the terms.",
+                    "a group chat with bad advice.",
+                    "Mercury in retrograde, allegedly."
+                ]
+            },
+            {
+                "text": "Live every day like it’s your last—{filler}",
+                "fillers" : [
+                    "reckless, confused, and ignoring emails.",
+                    "and your credit card has no limit.",
+                    "but still go to work, just in case.",
+                    "then panic about what to eat for lunch."
+                ]
+            },
+            {
+                "text": "You only live once. And even that's {filler}",
+                "fillers" : [
+                    "starting to feel like too much.",
+                    "less exciting than advertised.",
+                    "starting to feel like a group project.",
+                    "mostly just email and laundry."
+                ]
+            }
+        ]
+    }
+]
