@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Web Page</title>
+        <link rel="stylesheet" type="text/css" href="style/styles.css">
+        <script src="scripts/script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Mixed Messages</h1>
+        </header>
+        <main>
+            <section id="description">
+                <p>To receive an "inspirational" message, click the button below.</p>
+            </section>
+            <section id="message-container">
+                <p id="message">Your message will appear here.</p>
+                <button id="generate-message" class="actionButton" onclick="displayRandomPhrase()">Generate Message</button>
+                <button id="copy-message" class="secondaryButton" onclick="copyToClipboard()">Copy Message</button>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 My Web Page</p>
+            <p>Created by Nick Parrish</p>
+        </footer>
+    </body>
+</html>
