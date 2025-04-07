@@ -1,10 +1,18 @@
 
 /* Loading phrases from JSON file */
 async function getPhrases() {
-    const fileContents = await fetch('/scripts/data/phrases.json')
-        .then(response => response.json());
-    console.log(fileContents);
-    return fileContents;
+    try {
+        const response = await fetch('/scripts/data/phrases.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const fileContents = await response.json();
+        console.log(fileContents);
+        return fileContents;
+    } catch (error) {
+        console.error('Error fetching phrases:', error);
+        return null;
+    }
 }
 
 // Function to get a random number between 0 and max (exclusive)
