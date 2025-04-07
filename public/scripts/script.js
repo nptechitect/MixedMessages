@@ -2,7 +2,7 @@
 /* Loading phrases from JSON file */
 async function getPhrases() {
     try {
-        const response = await fetch('/scripts/data/phrases.json');
+        const response = await fetch('scripts/data/phrases.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
